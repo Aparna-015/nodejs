@@ -1,9 +1,17 @@
-const calculatesum = require("./sum.js");
+// const calculatesum = require("./sum.js");
 
-var a = 10;
-var b = 20;
+// var a = 10;
+// var b = 20;
 
-console.log('helloii');
-const result = calculatesum(a, b);
-console.log(result); // Prints 30
-console.log('hellllo');
+// console.log('helloii');
+// const result = calculatesum(a, b);
+// console.log(result); // Prints 30
+// console.log('hellllo');
+
+
+
+const calculatesum=require("./sum.js");
+var a=10;
+var b=20;
+var result=calculatesum(a,b);
+console.log(result);
